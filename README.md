@@ -29,6 +29,8 @@ Mean Squared Error (MSE): 3.39<br>
 Root Mean Squared Error (RMSE): 1.84<br>
 These metrics reflect the model's accuracy and the reliability of its predictions.<br>
 
+![App Interface](images/interface.png)
+
 **Setup**
 
 1. Clone the repository: git clone https://github.com/nakkkul/resale-value-prediction.git<br>
@@ -36,3 +38,6 @@ cd resale-value-prediction<br>
 2. Install dependencies: pip install -r requirements.txt<br>
 3. Run the Flask application: python app.py<br>
 4. Access the application at http://localhost:5000 in your browser.
+
+
+
