@@ -14,7 +14,7 @@ Machine Learning Model: A trained predictive model that has been optimized for a
 
 **Approach**
 
-Frontend: Designed using HTML to provide a user-friendly interface for input and output.
+Frontend: Designed using HTML to provide a user-friendly interface for input and output.<br>
 Backend: Flask application that connects the frontend to the machine learning model.
 Model Deployment: Deployed on Render for public access, making the application accessible online for ease of use.
 
