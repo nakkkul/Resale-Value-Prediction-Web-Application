@@ -3,16 +3,23 @@
 This project is a machine learning-powered web application that predicts resale values for vehicles based on user-inputted information. Built using Flask for the backend and HTML for the frontend, the app allows users to enter specific vehicle details, and it returns an estimated resale value in real-time. The application is deployed on Render, making it easily accessible to users.
 
 **Project Objective**
+
 To create an accessible, user-friendly tool that uses machine learning to predict resale values based on various vehicle characteristics.
 
 **Project Structure**
+
 app.py: Main backend file that handles user input, processes it through the machine learning model, and serves predictions to the frontend.
+
 index.html: Frontend HTML file that provides a clean interface for users to enter vehicle details and view the predicted resale value.
+
 Machine Learning Model: A trained predictive model that has been optimized for accurate valuation. The model achieved a Mean Absolute Error (MAE) of 0.82, Mean Squared Error (MSE) of 3.39, and Root Mean Squared Error (RMSE) of 1.84, ensuring reliable performance in valuation estimates.
 
 **Approach**
+
 Frontend: Designed using HTML to provide a user-friendly interface for input and output.
+
 Backend: Flask application that connects the frontend to the machine learning model.
+
 Model Deployment: Deployed on Render for public access, making the application accessible online for ease of use.
 
 **Key Features**
