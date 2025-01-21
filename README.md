@@ -1,43 +1,96 @@
-**Resale Value Prediction Web Application**
+# 🚗 Vehicle Resale Value Estimator  
 
-This project is a machine learning-powered web application that predicts resale values for vehicles based on user-inputted information. Built using Flask for the backend and HTML for the frontend, the app allows users to enter specific vehicle details, and it returns an estimated resale value in real-time. The application is deployed on Render, making it easily accessible to users.
+### 📜 Overview  
+The **Vehicle Resale Value Estimator** is a machine learning-powered web application designed to predict the resale value of vehicles based on user inputs. The application is built using **Flask** for the backend and **HTML** for the frontend, providing an intuitive and seamless user experience. It is deployed on **Render**, ensuring public accessibility and ease of use.  
 
-**Project Objective**
+This tool helps users estimate the market value of their vehicles by leveraging a trained predictive model, making it useful for buyers, sellers, and automotive businesses.  
 
-To create an accessible, user-friendly tool that uses machine learning to predict resale values based on various vehicle characteristics.
+---
 
-**Project Structure**
+### 🚀 Features  
+✅ **Instant Valuation** – Enter vehicle details and get an estimated resale price in real-time.  
+✅ **Optimized Model** – Uses a machine learning model trained for high accuracy.  
+✅ **User-Friendly Interface** – Simple HTML-based form for easy data entry.  
+✅ **Cloud Deployment** – Hosted on Render for seamless public access.  
+✅ **Reliable Performance** – Model evaluation metrics ensure dependable predictions.  
 
-app.py: Main backend file that handles user input, processes it through the machine learning model, and serves predictions to the frontend.<br>
-index.html: Frontend HTML file that provides a clean interface for users to enter vehicle details and view the predicted resale value.<br>
-Machine Learning Model: A trained predictive model that has been optimized for accurate valuation. The model achieved a Mean Absolute Error (MAE) of 0.82, Mean Squared Error (MSE) of 3.39, and Root Mean Squared Error (RMSE) of 1.84, ensuring reliable performance in valuation estimates.
+---
 
-**Approach**
+### 🏗️ Technology Stack  
+- **Frontend:** HTML, CSS  
+- **Backend:** Flask (Python-based web framework)  
+- **Machine Learning Framework:** Scikit-learn for model training and inference  
+- **Deployment Platform:** Render  
+- **Programming Languages:** Python (Backend & Model), HTML/CSS (Frontend)  
 
-Frontend: Designed using HTML to provide a user-friendly interface for input and output.<br>
-Backend: Flask application that connects the frontend to the machine learning model.<br>
-Model Deployment: Deployed on Render for public access, making the application accessible online for ease of use.
+---
 
-**Key Features**
+### 📊 Model Performance Metrics  
+The trained model has been optimized to provide accurate vehicle valuation predictions, achieving:  
 
-Real-time prediction of resale values based on user-inputted vehicle details.<br>
-Simple, intuitive HTML interface.<br>
-Deployment on Render for wide accessibility.<br>
-Performance Metrics<br>
-Mean Absolute Error (MAE): 0.82<br>
-Mean Squared Error (MSE): 3.39<br>
-Root Mean Squared Error (RMSE): 1.84<br>
-These metrics reflect the model's accuracy and the reliability of its predictions.<br>
+- **Mean Absolute Error (MAE):** 0.82  
+- **Mean Squared Error (MSE):** 3.39  
+- **Root Mean Squared Error (RMSE):** 1.84  
 
-![App Interface](images/interface.png)
+These metrics demonstrate the model’s reliability and effectiveness in predicting resale values.  
 
-**Setup**
+---
 
-1. Clone the repository: git clone https://github.com/nakkkul/resale-value-prediction.git<br>
-cd resale-value-prediction<br>
-2. Install dependencies: pip install -r requirements.txt<br>
-3. Run the Flask application: python app.py<br>
-4. Access the application at http://localhost:5000 in your browser.
+### 🏗️ Project Architecture  
+📌 **Data Processing:** User inputs are preprocessed before being passed to the machine learning model.  
+📌 **Model Prediction:** A trained regression model generates an estimated resale value.  
+📌 **Web Interface:** A simple HTML-based form allows users to enter vehicle details.  
+📌 **Deployment:** Flask serves the backend, and the app is hosted on Render for public access.  
 
+---
 
+### 📸 Interface Preview  
+![App Interface](images/interface.png)  
 
+---
+
+### ⚙️ Setup Instructions  
+
+#### **Prerequisites**  
+Ensure the following are installed on your system:  
+🔹 Python 3.7+  
+🔹 pip (Python package manager)  
+
+#### **Installation Steps**  
+
+1️⃣ **Clone the Repository:**  
+```bash
+git clone https://github.com/nakkkul/resale-value-prediction.git
+cd resale-value-prediction
+```  
+
+2️⃣ **Install Dependencies:**  
+```bash
+pip install -r requirements.txt
+```  
+
+3️⃣ **Run the Application Locally:**  
+```bash
+python app.py
+```  
+
+4️⃣ **Access the Application:**  
+Open [http://localhost:5000](http://localhost:5000) in your browser to use the app.  
+
+---
+
+### 🌐 Deployment Link  
+You can access the live version of the application here:  
+🔗 [Vehicle Resale Value Estimator](https://resale-value-prediction.onrender.com)  
+
+---
+
+### 📚 Future Enhancements  
+🔹 Expand the training dataset to improve model accuracy.  
+🔹 Add a feature for multi-vehicle comparisons.  
+🔹 Implement an API for integration with other platforms.  
+
+---
+
+### 🤝 Acknowledgments  
+A special thanks to open-source machine learning frameworks and datasets that made this project possible.  
